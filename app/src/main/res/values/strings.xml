@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ClgSpaceTask</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_page">Login Page</string>
+    <string name="login">LOGIN</string>
+    <string name="not_signed_up_yet_click_here">Not signed up yet ? Click here.</string>
+    <string name="signup_page">SignUp Page</string>
+    <string name="sig_me_up">Sig me Up !</string>
+    <string name="email_id">Email ID</string>
+    <string name="d">D</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="happy_quizzing">Go Quizzing !</string>
+    <string name="zero">0</string>
+    <string name="score">Score:</string>
+    <string name="score_from_previous_attempt">Score From Previous Attempt: </string>
+    <string name="give_a_try_first">Give a try first !</string>
+</resources>

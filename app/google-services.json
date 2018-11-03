@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "20985385256",
+    "firebase_url": "https://collegespacetask-47a24.firebaseio.com",
+    "project_id": "collegespacetask-47a24",
+    "storage_bucket": "collegespacetask-47a24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20985385256:android:a564d334600ec782",
+        "android_client_info": {
+          "package_name": "com.example.msq.clgspacetask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20985385256-cc0vttp0b0mh9ck3n1u391f7eg7m90c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.msq.clgspacetask",
+            "certificate_hash": "527a43f00307e4390ffd6bf35f7515fd14ffdc37"
+          }
+        },
+        {
+          "client_id": "20985385256-9c1ofc884dso2739qpq7k0ndbq0qfo5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg10ErpyW7XrVFGeGMBCfqAB2MP1M_gvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20985385256-9c1ofc884dso2739qpq7k0ndbq0qfo5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

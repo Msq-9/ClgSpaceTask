@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56a3afae"
+    tools:context=".homeActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/score_from_previous_attempt"
+        android:textAlignment="center"
+        android:textColor="#093b36"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/prevScore"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#093b36"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/goQuiz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#aed4d2"
+        android:background="@drawable/go_quiz"
+        android:layout_below="@+id/prevScore"
+        android:layout_centerHorizontal="true"
+        android:text="@string/happy_quizzing"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
