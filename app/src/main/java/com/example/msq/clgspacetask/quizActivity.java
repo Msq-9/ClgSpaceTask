@@ -191,12 +191,14 @@ public class quizActivity extends AppCompatActivity implements GestureDetector.O
 
         //Toast.makeText(this, "left", Toast.LENGTH_SHORT).show();
 
-        for(int i=0;i<4;i++){
-            option[i].setEnabled(true);
-            option_[i].setEnabled(true);
+        if(index != 5){
+            for(int i=0;i<4;i++){
+                option[i].setEnabled(true);
+                option_[i].setEnabled(true);
 
-            option[i].setBackgroundResource(R.drawable.options_btn);
-            option_[i].setBackgroundResource(R.drawable.abcd_btn);
+                option[i].setBackgroundResource(R.drawable.options_btn);
+                option_[i].setBackgroundResource(R.drawable.abcd_btn);
+            }
         }
 
         index++;
@@ -225,12 +227,14 @@ public class quizActivity extends AppCompatActivity implements GestureDetector.O
 
         //Toast.makeText(this, "right", Toast.LENGTH_SHORT).show();
 
-        for(int i=0;i<4;i++){
-            option[i].setEnabled(true);
-            option_[i].setEnabled(true);
+        if(index != 1){
+            for(int i=0;i<4;i++){
+                option[i].setEnabled(true);
+                option_[i].setEnabled(true);
 
-            option[i].setBackgroundResource(R.drawable.options_btn);
-            option_[i].setBackgroundResource(R.drawable.abcd_btn);
+                option[i].setBackgroundResource(R.drawable.options_btn);
+                option_[i].setBackgroundResource(R.drawable.abcd_btn);
+            }
         }
 
         index--;
